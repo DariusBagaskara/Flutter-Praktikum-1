@@ -5,8 +5,10 @@ class TextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return const Text(
+      'WELCOME\n'
       'POLITEKNIK NEGERI BANYUWANGI',
-      style: TextStyle(fontSize: 30, color: Colors.blue),
+      textAlign: TextAlign.center,
+      style: TextStyle(fontSize: 30, color: Colors.white),
     );
     
   }
